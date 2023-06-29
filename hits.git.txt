@@ -1,0 +1,8 @@
+git commands
+git init
+git status
+git add .(all)
+git commit -m "message"
+cant use the same repository name
+README.md in git is where we put our information concerning the project,connection
+git remote add origin(can be any other name) URL from github
