@@ -1,0 +1,6 @@
+row runs from left to right
+row has a maximum of 12 colums
+breakpoints are resposive to the screens
+sm-phones
+md-tablets
+large-pc,desktop

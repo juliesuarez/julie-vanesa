@@ -1,0 +1,82 @@
+#logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+
+}
+
+.heading{
+    text-align: center;
+    color: brown;
+    
+} 
+
+h2 {
+    text-align: center;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+
+main {
+    flex: 1;
+    padding: 20px;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 0px !important;
+    margin-left: 0 !important;
+  }
+  
+  
+  
+  .cards {
+    flex-wrap: wrap;
+    display: flex;
+    gap: 20px;
+    color: aquamarine;
+  }
+  
+  .card {
+    flex: 0 0 calc(50% - 10px); 
+    background-color: #f9f9f9;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    color: bisque;
+  }
+
+#adminh2 {
+    text-align: center;
+}
+
+ 
+#location {
+    margin-left: 200px !important;
+}

@@ -1,0 +1,32 @@
+git commands
+git config --global user.name "name",creating username
+git config --global user.email "email",creating email
+code .. ,opening visual studio code.
+git config --global core.editor "code --wait"
+git config --global -e,activating editor in the studio code.
+git config --global core.autocrlf True,
+git config --help,getting help with the commands.
+git init,initializing a new and empty repository.
+git status,checking the status of the repository.
+git add .(all/period),adding files to be pushed to github.
+git commit -m "message",creating a message corresponding to the changes made.
+cant use the same repository name
+README.md in git is where we put our information concerning the project,connection
+git remote add origin main(can be any other name) URL from github
+git remote -v URL-PUSH OR FETCH,checking the remote version
+git branch -M main,
+git push orign main
+you perform git push -u origin main once,any time your pushing 
+git reset-this is useful in undoing the stage changes ie during staging or adding though considerably the latest
+git reset name of the file, git reset hash name for that particular already committed change.
+git commit -am 'update this please'- short cut for both staging changes and commiting.
+branches in git are for to perfom different tasks to break the already running application
+developement branch for testing
+creating branches
+git checkout -b new branch,creating a new branch
+git checkout branch-name-switching branches.
+git pull- when getting updates from the cloud,matching 
+git clone-downloading from cloud/getting the copy ie git clone 'URL'
+git merge-merging two different branches to make changes appear.
+git diff- to see the differences in the two branches to be merged.
+git checkout -d 'branch name' for deleting that particular branch.
