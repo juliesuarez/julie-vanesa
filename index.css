@@ -1,0 +1,16 @@
+#logo img{
+    width: 100px;
+    height: 100px;
+}
+
+.heading {
+    text-align: center;
+    font-size: x-large;
+    font-style: italic;
+    color: rebeccapurple;
+}
+
+.container {
+    text-align: center;
+    background-color: gray;
+}

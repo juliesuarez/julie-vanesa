@@ -1,0 +1,111 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="stylesheet" href="{% static 'css/signup.css' %}">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    {% load bootstrap5 %}
+    {% bootstrap_css %}
+    {% bootstrap_javascript %}
+
+</head>
+<body>
+    <!-- startnavbar -->
+    <div class="nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <div id="logo"><img style="border-radius: 50px; width: 50px; height: 50px;" src="{% static 'image/logo.jpg' %}"></div>
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index/">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="login/">Login</a>
+                  </li>
+                </ul>
+                <form class="d-flex" role="search">
+                  <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                  <button class="btn btn-outline-success" type="submit" style="width: 300px;">Search</button>
+                </form>
+                <p style="margin-left: 170px !important;">Kiseka-Market,Central Kampala-Uganda</p>
+              </div>
+            </div>
+        </nav>   
+      </div>
+    </div>
+  </div>  
+    <!-- endnavbar -->
+
+    <!-- main -->
+    <div class="heading">
+        <h1 style="text-align: center; color: brown;">Welcome to BeRealMotor Spare Parts Company</h1>
+    </div>
+    <div class="julk">
+        <form class="row g-3" style="color: green;">
+            <div class="col-md-4">
+              <label for="validationDefault01" class="form-label">NAME</label>
+              <input type="text" class="form-control" id="validationDefault01" value="" required>
+            </div>
+            <div class="col-md-4">
+              <label for="validationDefault02" class="form-label">EMAIL</label>
+              <input type="text" class="form-control" id="validationDefault02" value="" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault03" class="form-label">National ID</label>
+              <input type="text" class="form-control" id="validationDefault03" required>
+              <br>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Place of Residence</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Branch Name</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Phone Number</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-md-3">
+              <label for="validationDefault05" class="form-label">Location</label>
+              <input type="text" class="form-control" id="validationDefault05" required>
+            </div>
+            <div class="col-12">
+              <div class="form-check">
+                <input class="form-check-input" type="checkbox" value="" id="invalidCheck2" required>
+                <label class="form-check-label" for="invalidCheck2">
+                  Register
+                </label>
+              </div>
+            </div>
+            <div class="col-12">
+              <button class="btn btn-primary" type="submit" style="text-align: center;">Submit</button>
+            </div>
+          </form>
+    </div>
+    <!-- footer -->
+    <footer style="background-color: black; color: white; text-align: center;">
+                    
+      <p>@copyright  2023 BeRealMotor Spare Parts Company. All rights reserved.</p>
+      <p>Kiseka Market-Central Kampala</p>
+      <i class="fa fa-twitter-square">
+        <a href="https://twitter.com/home">@juliecristiana</a>
+      </i>
+    </footer>
+    <!-- endfooter -->
+
+
+    <script src="{% static 'js/bootstrap.min.js'%}"></script>
+
+</body>
+</html>
